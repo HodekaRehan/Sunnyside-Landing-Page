@@ -11,6 +11,12 @@
 			sizes="32x32"
 			href="./images/favicon-32x32.png"
 		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" type="text/css" href="/style.css" />
 
 		<title>Sunnyside agency landing page</title>
@@ -18,7 +24,7 @@
 	<body>
 		<header class="header">
 			<nav class="navbar">
-				<img src="/images/logo.svg" alt="Logo" />
+				<img class="logo" src="/images/logo.svg" alt="Logo" />
 				<ul class="nav-menu">
 					<li class="nav-list">
 						<a class="nav-link" href="#">About</a>
@@ -34,24 +40,95 @@
 					</li>
 				</ul>
 
-				<img src="/images/icon-hamburger.svg" alt="Hamburger Icon" />
+				<img
+					class="hamburger"
+					src="/images/icon-hamburger.svg"
+					alt="Hamburger Icon"
+				/>
 			</nav>
 
-			<h1>We are creatives</h1>
-			<img src="/images/icon-arrow-down.svg" alt="Down Arrow" />
+			<div class="heading">
+				<h1>We are creatives</h1>
+				<img src="/images/icon-arrow-down.svg" alt="Down Arrow" />
+			</div>
 		</header>
-		We are creatives Transform your brand We are a full-service creative
-		agency specializing in helping brands grow fast. Engage your clients
-		through compelling visuals that do most of the marketing for you. Learn
-		more Stand out to the right audience Using a collaborative formula of
-		designers, researchers, photographers, videographers, and copywriters,
-		we’ll build and extend your brand in digital places. Learn more Graphic
-		design Great design makes you memorable. We deliver artwork that
-		underscores your brand message and captures potential clients’
-		attention. Photography Increase your credibility by getting the most
-		stunning, high-quality photos that improve your business image. Client
-		testimonials We put our trust in Sunnyside and they delivered, making
-		sure our needs were met and deadlines were always hit. Emily R.
+		<main>
+			<section>
+				<div class="div-container">
+					<div class="img-div">
+						<img
+							class="img"
+							src="/images/desktop/image-transform.jpg"
+							alt="Egg Image"
+						/>
+					</div>
+					<div class="div-container1">
+						<div class="text-container">
+							<h2>Transform your brand</h2>
+							<p class="para">
+								We are a full-service creative agency
+								specializing in helping brands grow fast. Engage
+								your clients through compelling visuals that do
+								most of the marketing for you.
+							</p>
+							<div class="learn-more-link">
+								<a class="learn-more" href="#">Learn more</a>
+								<div class="border yellow"></div>
+							</div>
+						</div>
+					</div>
+					<div class="div-container">
+						<div class="img-div">
+							<img
+								class="img"
+								src="/images/desktop/image-stand-out.jpg"
+								alt="Stand Out Image"
+							/>
+						</div>
+						<div class="div-container1">
+							<div class="text-container">
+								<h2>Stand out to the right audience</h2>
+								<p class="para">
+									Using a collaborative formula of designers,
+									researchers, photographers, videographers,
+									and copywriters, we’ll build and extend your
+									brand in digital places.
+								</p>
+								<div class="learn-more-link">
+									<a class="learn-more" href="#"
+										>Learn more</a
+									>
+									<div class="border pink"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="image-text-div graphic">
+					<div class="text-over-img graphic-text">
+						<h3 class="design">Graphic design</h3>
+						<p class="para1">
+							Great design makes you memorable. We deliver artwork
+							that underscores your brand message and captures
+							potential clients’ attention.
+						</p>
+					</div>
+				</div>
+				<div class="image-text-div photography">
+					<div class="text-over-img photo-text">
+						<h3 class="photo">Photography</h3>
+						<p class="para1">
+							Increase your credibility by getting the most
+							stunning, high-quality photos that improve your
+							business image.
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		Client testimonials We put our trust in Sunnyside and they delivered,
+		making sure our needs were met and deadlines were always hit. Emily R.
 		Marketing Director Sunnyside’s enthusiasm coupled with their keen
 		interest in our brand’s success made it a satisfying and enjoyable
 		experience. Thomas S. Chief Operating Officer Incredible end result! Our
@@ -66,5 +143,7 @@
 				>Frontend Mentor</a
 			>. Coded by <a href="#">Your Name Here</a>.
 		</div>
+
+		<script src="/script.js"></script>
 	</body>
 </html>
