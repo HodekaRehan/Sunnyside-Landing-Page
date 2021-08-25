@@ -25,6 +25,13 @@
 		<header class="header">
 			<nav class="navbar">
 				<img class="logo" src="/images/logo.svg" alt="Logo" />
+
+				<img
+					class="hamburger"
+					src="/images/icon-hamburger.svg"
+					alt="Hamburger Icon"
+				/>
+
 				<ul class="nav-menu">
 					<li class="nav-list">
 						<a class="nav-link" href="#">About</a>
@@ -39,29 +46,20 @@
 						<a class="nav-link contact" href="#">Contact</a>
 					</li>
 				</ul>
-
-				<img
-					class="hamburger"
-					src="/images/icon-hamburger.svg"
-					alt="Hamburger Icon"
-				/>
 			</nav>
 
 			<div class="heading">
 				<h1>We are creatives</h1>
-				<img src="/images/icon-arrow-down.svg" alt="Down Arrow" />
+				<img
+					class="arrow"
+					src="/images/icon-arrow-down.svg"
+					alt="Down Arrow"
+				/>
 			</div>
 		</header>
 		<main>
 			<section>
-				<div class="flex-container first">
-					<div class="img-div">
-						<img
-							class="img"
-							src="/images/desktop/image-transform.jpg"
-							alt="Egg Image"
-						/>
-					</div>
+				<div class="flex-container0 first">
 					<div class="text-div">
 						<div class="text-container">
 							<h2>Transform your brand</h2>
@@ -77,8 +75,15 @@
 							</div>
 						</div>
 					</div>
+					<div class="img-div">
+						<img
+							class="img"
+							src="/images/desktop/image-transform.jpg"
+							alt="Egg Image"
+						/>
+					</div>
 				</div>
-				<div class="flex-container second">
+				<div class="flex-container0">
 					<div class="img-div">
 						<img
 							class="img"
@@ -102,85 +107,30 @@
 						</div>
 					</div>
 				</div>
+				<div class="flex-container">
+					<div class="text-over-img graphic">
+						<div class="text-container1">
+							<h3 class="design">Graphic Design</h3>
+							<p class="para1">
+								Great design makes you memorable. We deliver
+								artwork that underscores your brand message and
+								captures potential clients’ attention.
+							</p>
+						</div>
+					</div>
+					<div class="text-over-img photography">
+						<div class="text-container1">
+							<h3 class="photo">Photography</h3>
+							<p class="para1">
+								Increase your credibility by getting the most
+								stunning, high-quality photos that improve your
+								business image.
+							</p>
+						</div>
+					</div>
+				</div>
 			</section>
-			<!-- <section>
-				<div class="main-container">
-					<div class="div-container">
-						<div class="img-div">
-							<img
-								class="img"
-								src="/images/desktop/image-transform.jpg"
-								alt="Egg Image"
-							/>
-						</div>
-						<div class="div-container1">
-							<div class="text-container">
-								<h2>Transform your brand</h2>
-								<p class="para">
-									We are a full-service creative agency
-									specializing in helping brands grow fast.
-									Engage your clients through compelling
-									visuals that do most of the marketing for
-									you.
-								</p>
-								<div class="learn-more-link">
-									<a class="learn-more" href="#"
-										>Learn more</a
-									>
-									<div class="border yellow"></div>
-								</div>
-							</div>
-						</div>
-						<div class="div-container">
-							<div class="img-div">
-								<img
-									class="img"
-									src="/images/desktop/image-stand-out.jpg"
-									alt="Stand Out Image"
-								/>
-							</div>
-							<div class="div-container1">
-								<div class="text-container">
-									<h2>Stand out to the right audience</h2>
-									<p class="para">
-										Using a collaborative formula of
-										designers, researchers, photographers,
-										videographers, and copywriters, we’ll
-										build and extend your brand in digital
-										places.
-									</p>
-									<div class="learn-more-link">
-										<a class="learn-more" href="#"
-											>Learn more</a
-										>
-										<div class="border pink"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="image-text-div graphic">
-					<div class="text-over-img graphic-text">
-						<h3 class="design">Graphic design</h3>
-						<p class="para1">
-							Great design makes you memorable. We deliver artwork
-							that underscores your brand message and captures
-							potential clients’ attention.
-						</p>
-					</div>
-				</div>
-				<div class="image-text-div photography">
-					<div class="text-over-img photo-text">
-						<h3 class="photo">Photography</h3>
-						<p class="para1">
-							Increase your credibility by getting the most
-							stunning, high-quality photos that improve your
-							business image.
-						</p>
-					</div>
-				</div>
-			</section> -->
+
 			<section class="client-section">
 				<div class="client-testimonials">
 					<h3 class="client-heading">Client testimonials</h3>
@@ -199,7 +149,7 @@
 							<p class="client-name">Emily R.</p>
 							<p class="client-occupation">Marketing Director</p>
 						</div>
-						<div class="client">
+						<div class="client thomas">
 							<img
 								class="clients-img"
 								src="/images/image-thomas.jpg"
@@ -215,7 +165,7 @@
 								Chief Operating Officer
 							</p>
 						</div>
-						<div class="client">
+						<div class="client jennie">
 							<img
 								class="clients-img"
 								src="/images/image-jennie.jpg"
@@ -270,60 +220,62 @@
 			</section>
 		</main>
 		<footer>
-			<p class="footer-logo">sunnyside</p>
-			<nav class="footer-nav">
-				<ul class="footer-nav-menu">
-					<li class="footer-nav-list">
-						<a class="footer-nav-link" href="#">About</a>
-					</li>
-					<li class="footer-nav-list">
-						<a class="footer-nav-link" href="#">Services</a>
-					</li>
-					<li class="footer-nav-list">
-						<a class="footer-nav-link" href="#">Projects</a>
-					</li>
-				</ul>
-			</nav>
-			<nav class="social-nav">
-				<ul class="social-nav-menu">
-					<li class="social-nav-list">
-						<a class="social-nav-link" href="#">
-							<img
-								class="social-img"
-								src="images/icon-facebook.svg"
-								alt="facebook"
-							/>
-						</a>
-					</li>
-					<li class="social-nav-list">
-						<a class="social-nav-link" href="#">
-							<img
-								class="social-img"
-								src="images/icon-twitter.svg"
-								alt="twitter"
-							/>
-						</a>
-					</li>
-					<li class="social-nav-list">
-						<a class="social-nav-link" href="#">
-							<img
-								class="social-img"
-								src="images/icon-pinterest.svg"
-								alt="Pinterest"
-							/>
-						</a>
-					</li>
-					<li class="social-nav-list">
-						<a class="social-nav-link" href="#">
-							<img
-								class="social-img"
-								src="images/icon-instagram.svg"
-								alt="Instagram"
-							/>
-						</a>
-					</li>
-				</ul>
-			</nav>
+			<div class="footer-nav">
+				<p class="footer-logo">sunnyside</p>
+				<nav class="footer-nav">
+					<ul class="footer-nav-menu">
+						<li class="footer-nav-list">
+							<a class="footer-nav-link" href="#">About</a>
+						</li>
+						<li class="footer-nav-list">
+							<a class="footer-nav-link" href="#">Services</a>
+						</li>
+						<li class="footer-nav-list">
+							<a class="footer-nav-link" href="#">Projects</a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="social-nav">
+					<ul class="social-nav-menu">
+						<li class="social-nav-list">
+							<a class="social-nav-link" href="#">
+								<img
+									class="social-img"
+									src="images/icon-facebook.svg"
+									alt="facebook"
+								/>
+							</a>
+						</li>
+						<li class="social-nav-list">
+							<a class="social-nav-link" href="#">
+								<img
+									class="social-img"
+									src="images/icon-twitter.svg"
+									alt="twitter"
+								/>
+							</a>
+						</li>
+						<li class="social-nav-list">
+							<a class="social-nav-link" href="#">
+								<img
+									class="social-img"
+									src="images/icon-pinterest.svg"
+									alt="Pinterest"
+								/>
+							</a>
+						</li>
+						<li class="social-nav-list">
+							<a class="social-nav-link" href="#">
+								<img
+									class="social-img"
+									src="images/icon-instagram.svg"
+									alt="Instagram"
+								/>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 
 			<div class="attribution">
 				Challenge by
