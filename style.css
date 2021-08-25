@@ -501,6 +501,14 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+	.heading {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 45px;
+	}
+
 	.text-div {
 		padding: 0 50px;
 	}
